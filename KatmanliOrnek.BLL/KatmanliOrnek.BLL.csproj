@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KatmanliOrnek.DAL\KatmanliOrnek.DAL.csproj" />
+    <ProjectReference Include="..\KatmanliOrnek.Entities\KatmanliOrnek.Entities.csproj" />
+    <ProjectReference Include="..\KatmanliOrnek.Models\KatmanliOrnek.Models.csproj" />
+    <ProjectReference Include="..\KatmanliOrnek.Shared\KatmanliOrnek.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
